@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: de.larsschuetze.eclipse.tutorial.plugin.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.larsschuetze.eclipse.tutorial.plugin.test.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ de.larsschuetze.eclipse.tutorial.plugin;bundle-version="1.0.0",
+ org.junit;bundle-version="4.12.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
